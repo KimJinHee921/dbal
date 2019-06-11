@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+img.close_ {
+	width : 30px;
+	height : 30px;
+	cursor: pointer;
+}
+
+.blue-btn {
+	background-color: silver;
+	color: white;
+	border: none;
+	border-radius: 0;
+	cursor: pointer;
+	width: 100%;
+	height: 36px;
+	opacity: 0.8;
+	border-radius: 5px;
+}
+
+.blue-btn:hover {
+	background-color: #16a5f7 !important;
+}
+
+.blue-btn.active {
+	background-color: #666;
+	color: white;
+}
